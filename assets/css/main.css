@@ -21,7 +21,15 @@ a:hover {
 }
 .text-lite {color: #919CB8;}
 .text-main {color: #2B74B9;}
-
+.block-white {
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0px 10px 10px rgba(212, 217, 232, 0.2);
+    border-radius: 10px;
+}
+.block-simple {
+    margin-bottom: 20px;
+}
 
 /* navbat header */
 .bg-light {
@@ -81,6 +89,7 @@ a:hover {
     line-height: 23px;
     color: #000000;
     padding: 30px 30px;
+    display: flex;
 }
 .sidebar-menu .list-group-item + .list-group-item {
     border-width: 0;
@@ -91,4 +100,45 @@ a:hover {
     background-color: #F8FAFC;
     border: 1px solid #F4F4F4;
     color: #2B74B9;
+}
+.sidebar-menu_icon {width: 25px; height: 25px;}
+.sidebar-menu_text {padding-left: 1rem;}
+
+
+
+
+
+/* login-page */
+.login-page {
+    background-image: url(../images/login-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-form-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 30px;
+    width: 1078px;
+    height: 100%;
+    background-image: url(../images/double-arrow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.login-form {
+    width: 410px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 10px rgba(212, 217, 232, 0.2);
+    border-radius: 10px;
+    padding: 40px;
+}
+.login-form-head {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+    color: #000000;
 }
